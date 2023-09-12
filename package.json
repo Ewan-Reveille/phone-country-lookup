@@ -1,0 +1,45 @@
+{
+  "name": "phone-country-lookup",
+  "version": "0.0.1",
+  "description": "Server-side tool for detecting a phone number's origin country and verifying the correct digit count.",
+  "keywords": [
+    "phone",
+    "country",
+    "lookup",
+    "phone-number",
+    "origin",
+    "detection",
+    "verification",
+    "digits",
+    "international",
+    "telecommunications",
+    "utility",
+    "server-side",
+    "TypeScript",
+    "npm-package",
+    "validation"
+  ],
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewan-Reveille/phone-country-lookup.git"
+  },
+  "author": "Ewan Réveillé--Adam <ewan.reveille23@gmail.com>",
+  "maintainers": [
+    {
+      "name": "ewan_reveille--adam",
+      "email": "ewan.reveille23@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ewan-Reveille/phone-country-lookup/issues"
+  },
+  "homepage": "https://github.com/Ewan-Reveille/phone-country-lookup#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
