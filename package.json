@@ -1,0 +1,21 @@
+{
+  "name": "phone_country_lookup",
+  "version": "1.0.0",
+  "description": "phone_country_lookup is a versatile npm library for TypeScript and JavaScript devs. It helps identify a country by phone dialing code or prefix, aiding in phone number validation and internationalization.",
+  "main": "Main.ts",
+  "scripts": {
+    "build": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ewan-Reveille/phone_country_lookup.git"
+  },
+  "author": "ewan_reveille--adam",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9"
+  }
+}
