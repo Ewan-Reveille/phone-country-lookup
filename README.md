@@ -1,28 +1,24 @@
-# phone-country-lookup
+# phone-country-lookup-ts
 
-PhoneCountryLookup is a server-side tool that helps you detect the country of origin of a phone number and verify if it has the correct digit count.
+phone-country-lookup-ts is a server-side tool that helps you detect the country of origin of a phone number and verify if it has the correct digit count. It is the TypeScript version of phone-country-lookup
 
 ## Installation
 
-To install PhoneCountryLookup, use npm:
+To install phone-country-lookup-ts, use npm:
 
 ```bash
-npm install phone-country-lookup
+npm install phone-country-lookup-ts
 ```
 ## Usage
 ```bash
-const { checkPhoneNumber } = require('./Main');
-
-// Check a phone number
-const phoneNumber = "+11234567890";
+import {checkPhoneNumber} from 'phone-country-lookup-ts';
+const phoneNumber = "+998901237";
 const result = checkPhoneNumber(phoneNumber);
 
-if (result) {
-  console.log(`Country: ${result.country}`);
-  console.log(`Identifier: ${result.identifier}`);
-  console.log(`Is Correct Number: ${result.isCorrectNumber}`);
+if (result && typeof result === "object") {
+  console.log(`The corresponding country of the telephone area code ${result.identifier} is: ${result.country}. The number of figures is ${result.isCorrectNumber}.`);
 } else {
-  console.log("No match found.");
+  console.log(`No country matches the telephone area code ${phoneNumber}`);
 }
 ```
 ## License
