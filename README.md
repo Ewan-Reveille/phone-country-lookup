@@ -1,17 +1,17 @@
 # phone-country-lookup
 
-PhoneCountryLookup is a server-side tool that helps you detect the country of origin of a phone number and verify if it has the correct digit count.
+phone-country-lookup is a server-side tool that helps you detect the country of origin of a phone number and verify if it has the correct digit count.
 
 ## Installation
 
-To install PhoneCountryLookup, use npm:
+To install phone-country-lookup, use npm:
 
 ```bash
 npm install phone-country-lookup
 ```
 ## Usage
 ```bash
-const { checkPhoneNumber } = require('./Main');
+const { checkPhoneNumber } = require('phone-country-lookup');
 
 // Check a phone number
 const phoneNumber = "+11234567890";
